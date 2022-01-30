@@ -1,0 +1,32 @@
+{
+    "name": "Wordle",
+    "description": "Get help with breaking wordle puzzle!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/wordle16.png",
+            "32": "/images/wordle32.png",
+            "48": "/images/wordle48.png",
+            "128": "/images/wordle128.png"
+          }
+      },
+    "icons": {
+    "16": "/images/wordle16.png",
+    "32": "/images/wordle32.png",
+    "48": "/images/wordle48.png",
+    "128": "/images/wordle128.png"
+    },
+    "content_scripts": [{
+
+        "matches": ["https://www.powerlanguage.co.uk/wordle/"],
+        
+        "js": ["script.js"]
+        
+        }]
+  }

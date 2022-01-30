@@ -1,6 +1,6 @@
 # Wordle-Extension
 
-Wracking your brain to come up with words that fit into the [Wordle] (https://www.powerlanguage.co.uk/wordle/ Wordle) clues? Use this extension to get word suggestions and pick the most likely one to become a Wordle maestro!
+Wracking your brain to come up with words that fit into the [Wordle](https://www.powerlanguage.co.uk/wordle/ "Wordle") clues? Use this extension to get word suggestions and pick the most likely one to become a Wordle maestro!
 
 ## Using the extension
 
